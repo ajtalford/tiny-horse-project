@@ -1,29 +1,28 @@
-/* body { 
-    background-image: url("images/marketing-agency-header.jpg");
-    background-image: url(images/marketing-agency-header.jpg) !important;
-    background-color: ;
-} */
+body { 
+    font-family: sans-serif;
+    font-family: 'cardo','HelveticaNeue','Helvetica Neue','Helvetica-Neue', 'Helvetica,Arial,sans-serif';
+}
 ​
 #mainNavbar {
 	font-size: 1.5rem;
     font-weight: 100;
-    height: 70px;
-    background-color: black !important;
+    height: 50px;
+    /* background-color: black !important; */
 }
 ​
 #mainNavbar a {
     color: white !important;
     font-size: medium !important;
-    background-color: black !important;
+    /* background-color: black !important; */
 }
 ​
 #mainNavbar .nav-link {
     color: black;
-    background-color: black !important;
+    /* background-color: black !important; */
 }
 ​
 .navbar.scrolled {
-	background: #212326;
+	/* background: #212326; */
     transition: background 500ms;
 }
 ​
@@ -31,18 +30,64 @@
     background-color: rgb(155, 188, 226);
 }
 
-#top-image{
+.bg{ 
+    background-image: url(images/Agency-Gradient.jpg);
+    /* height: 100px; */
     background-repeat: no-repeat;
-    background-image: url("images/marketing-agency-header.jpg") !important;;
+    background-attachment: scroll;
+    height: 200px;
+    /* background-position: center center; */
+}
+
+
+.bg1{ 
+    background-image: url(images/Agency-Gradient.jpg);
+    /* height: 100px; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 200px;
+    /* background-position: center center; */
+}
+
+#header-text{
+    position: absolute;
+  /* bottom: 8px; */
+  left: 16px;
+  text-align: center;
+    color: whitesmoke;
+    margin-bottom: 50px;
+}
+
+
+.footer {
+    font-family: sans-serif;
+    
+}
+.page-footer {
+	background-color: #212326;
+}
+.footer-copyright {
+	color: #3E4F5B;
+	font-family: cardo;
+	/* text-indent: 60px */
+}
+.page-footer img{
+	margin-left: 45px;
+}
+a {
+	color: #3E4F5B;
+	text-decoration: none;
+}
+a:hover {
+	color: #A55547;
+	text-decoration: none;
+}
+
+.jumbotron{
+    background-image: url(images/marketing-agency-header.jpg) !important;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     height: 850px;
-}
-
-#carouselExampleInterval{
-    background-image: url(images/Agency-Gradient.jpg);
-    height: 100px;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
+    margin-bottom: -10px;
 }
